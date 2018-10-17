@@ -4,13 +4,16 @@
     height: 100vh;
 }
 
-#nav1 {
-    background-color:#000; /*whichever you want*/
-    opacity: 0.8; 
-    filter:(opacity=80); 
+.nav1 {
+    background-color:#000!important;
+    color:#FFD700!important;
+    opacity: 0.8;
+    filter:(opacity=80);
+    
+    
 }
 
 .nav-padding {
-    padding-right: 1.5rem;
+    padding-right: 1.0rem;
     padding-left: 1.5rem;
 }
