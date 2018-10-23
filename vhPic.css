@@ -14,10 +14,15 @@
 .nav-padding {
     padding-right: 1.0rem;
     padding-left: 1.5rem;
+    text-align: center;
 }
 
 .navbar-brand {
 	color: #FFD700!important;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
 }
 
 body {
@@ -82,4 +87,9 @@ body {
 
 small {
 	font-family: initial!important;
+}
+
+img {
+	-webkit-filter: invert(1);
+   	filter: invert(1);
 }
